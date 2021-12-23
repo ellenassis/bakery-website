@@ -461,6 +461,22 @@ header .navbar a:hover {
   background: var(--red);
 }
 
+.btn-order {
+  padding: 1rem 2rem;
+  border: 0.2rem solid var(--lightpink);
+  color: #f08fc0;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.btn-order:hover {
+  background-color: var(--lightpink);
+  color: #fff;
+}
+
 .footer {
   text-align: center;
   margin-bottom: 0;
@@ -475,6 +491,16 @@ header .navbar a:hover {
 
 .footer .credit {
   margin-top: 2.5rem;
+}
+
+@media (max-width: 1020px) {
+  .home .content {
+    margin-top: 7rem;
+  }
+
+  .home .content h3 {
+    font-size: 5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -517,6 +543,11 @@ header .navbar a:hover {
   .animate .arrow a span img {
     width: 5%;
   }
+
+  .order .row {
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -534,5 +565,9 @@ header .navbar a:hover {
 
   .order .row form .inputBox input {
     width: 100%;
+  }
+  
+  .order .row {
+    text-align: center;
   }
 }

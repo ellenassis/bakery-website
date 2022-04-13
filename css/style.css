@@ -503,9 +503,10 @@ header .navbar a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
 
   .home .content {
+    text-align: center;
     margin-top: 5rem;
   }
 

@@ -74,7 +74,7 @@ header .navbar a:hover {
 }
 
 #menu-bar {
-  font-size: 3rem;
+  font-size: 3.5rem;
   cursor: pointer;
   color: var(--lightpink);
   border-radius: 0.3rem;
@@ -503,7 +503,12 @@ header .navbar a:hover {
   }
 }
 
+
 @media (max-width: 960px) {
+
+  header {
+    padding: 2rem 3%;
+  }
 
   .home .content {
     text-align: center;
@@ -570,5 +575,11 @@ header .navbar a:hover {
   
   .order .row {
     text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .home .content {
+    margin-top: 8rem;
   }
 }
